@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ---------------------------------------- */
+/*      Header Section       */
+.fill_white {
+    fill: white;
+}
+
+.header {
+    background: url("Images/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.fill_yellow {
+    fill: #ffc107;
+}
+
+.underline_animation {
+    transition: all .3s linear;
+    text-decoration: underline;
+}
+
+.underline_animation:hover {
+    text-decoration: none;
+}
+
+.spinning_play {
+    transition: all .3s linear;
+}
+
+.spinning_play:hover {
+    transform: rotate(180deg);
+}
+/* ------------------------------------ */
+/*      Supporters Section       */
+.supporters {
+    background: radial-gradient(#dc0fd1, #7711c7);
+}
+/* ----------------------------------------------------- */
+/*      Owners Section       */
+.fill_gray {
+    fill: #6c757d;
+}
+
+.card_lg {
+    background: linear-gradient(-22deg, #7711c7, #dc0fd1);
+}
+
+.card_lg h3 {
+    line-height: 35px;
+}
+
+.ceo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 1px solid cyan;
+}
+/* -------------------------------------- */
+/*      Projects Sections      */
+.projects {
+    background: linear-gradient(44deg, #dc0fd1, #ffc107, #7711c7);
+}
+/* ------------------------------------------- */
+/*      Start Section     */
+.start {
+    background: radial-gradient(#7711c7, #dc0fd1);
+}
+/* ----------------------------------------- */
+/*      Footer Section       */
+.custom_link {
+    transition: all .3s linear;
+    color: #6c757d;
+}
+
+.custom_link:hover {
+    text-shadow: 0px 0px 20px #dc0fd1;
+    color: #6c757d;
+}
+
+.social_media {
+    background: rgba(120, 17, 199, 0.2);
+    backdrop-filter: blur(4px);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 6px;
+    transition: all .3s linear;
+}
+
+.social_media:hover {
+    transform: rotateZ(180deg);
+}
